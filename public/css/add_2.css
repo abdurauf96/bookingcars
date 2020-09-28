@@ -1,0 +1,233 @@
+@media screen and (min-width: 1024px) and (max-width:1200px){
+    .test{
+        max-height: 78px;
+    }
+    .offers{
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    .offers__inner-body .info-link:not(:nth-child(3)){
+        margin-right: 120px;
+    }
+    .myWork{
+        padding: 20px;
+    }
+    .myWork__inner-body .body-info:not(:last-child){
+        margin-right: 33px!important;
+      }
+      .myWork__inner-body .body-info{
+          width: 220px;
+      }
+      .avtoPark__inner-body{
+        padding-left: 30px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width:1023px){
+    .test{
+        max-height: 78px;
+    }
+    .booking__inner-info .logo{
+        text-align: center;
+    }
+    .booking__inner-info-form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .booking__inner-info-form form > *{
+        margin: 10px;
+    }
+    .booking__inner-info-form form a{
+        max-width: 280px;
+        width: 100%;
+    }
+    .offers{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .offers__inner-body .info-link:not(:nth-child(3)){
+        margin-right: 10px;
+    }
+    .myWork__inner-head, .whayMy__inner-left .head,.avtoPark__inner-head,.transfer__inner-text .logo{
+        text-align: center;
+    }
+    .myWork__inner-body {
+        padding: 10px 0px 10px 50px;
+    }
+    .myWork__inner-body .body-info:not(:nth-child(2n)){
+        margin-right: 105px!important;
+      }
+    .myWork__inner-body .body-info{
+        margin-bottom: 10px;
+    }
+    .zayavka__inner-body form input[type="submit"]{
+        padding-left: 30px;
+    }
+    .avtoPark__inner-body{
+        padding-left: 30px;
+    }
+    .avtoPark__inner-body .car-menu,.avtoPark__inner-body .car-menu-img{
+        max-width: 330px;
+    }
+    .double__bus--right--bron a{
+        margin-top: 60px;
+    }
+    .container-fluid.section3 .container .section_wrapper__right a{
+        color: white!important;
+    }
+    
+}
+@media screen and (min-width: 411px) and (max-width:767px){
+    .test{
+        max-height: 78px;
+    }
+    .booking__inner-info .logo{
+        text-align: center;
+    }
+    .booking__inner-info-form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .booking__inner-info-form form > *{
+        margin: 10px;
+    }
+    .booking__inner-info-form form a{
+        max-width: 280px;
+        width: 100%;
+    }
+    .header__inner-head .left .logo a img{
+        transform: scale(0.8);
+        margin-left: 80px;
+    }
+    .offers__inner-body,.avtoPark__inner-body{
+        padding: 10px 50px;
+    }
+    .myWork__inner-body{
+        padding: 10px 90px;
+    }
+    .offers__inner-body .info-link-block{
+        min-width: 300px!important;
+        width: 100%;
+        min-height: 413px;
+        height: 100%;
+        margin: 0 auto;
+        
+    }
+    .offers__inner-body .info-link-block .hover-link .head a{
+        margin-left: 40px;
+    }
+    
+}
+@media screen and (min-width: 321px ) and (max-width:410px){
+    .test{
+        max-height: 78px;
+    }
+    .booking__inner-info .logo{
+        text-align: center;
+    }
+    .booking__inner-info-form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .booking__inner-info-form form > *{
+        margin: 10px;
+    }
+    .header__inner-head .left .logo a img{
+        transform: scale(0.7);
+        margin-left: 50px;
+    }
+    .booking__inner-info-form form select {
+        padding: 10px 15px;
+    }
+    .offers__inner-body,.myWork__inner-body, .zayavka{
+        padding: 10px 75px;
+    }
+    .avtoPark__inner-body{
+        padding: 10px 50px;
+    }
+    .zayavka__inner-body form .lable input[type="text"]{
+        max-width: 300px;
+    }
+    .heli .helicopter--item .text h3{
+        line-height: 30px;
+    }
+    .heli .helicopter--item .text p{
+        display: none;
+    }
+    .heli{
+        max-width: 280px;
+        width: 100%;
+    }
+    .heli .logo{
+        display: none;
+    }
+    .add_label {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 320px){
+    .test{
+        max-height: 78px;
+    }
+    .booking__inner-info .logo{
+        text-align: center;
+    }
+    .booking__inner-info-form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .booking__inner-info-form form > *{
+        margin: 10px;
+    }
+    .header__inner-head .left .logo a img{
+        transform: scale(0.7);
+        margin-left: 50px;
+    }
+    .booking__inner-info-form form select {
+        padding: 10px 15px;
+    }
+    #modal > *{
+        top: 0;
+        transform: scale(0.8);
+    }
+    #modal {
+        top: -175px;
+        right: -25px;
+    }
+    .booking__inner-info{
+        padding: 15px;
+        margin: 0;
+        max-width: 300px;
+        width: 100%;
+    }
+    .booking__inner-info-form form select{
+        padding: 10px 5px;
+        max-width: 230px;
+    }
+    .offers__inner-body, .myWork__inner-body{
+        padding: 5px 50px;
+    }
+    .avtoPark__inner-body{
+        padding: 5px 10px;
+    }
+    .zayavka__inner-body form .lable input[type="text"]{
+        max-width: 230px;
+        width: 100%;
+    }
+    .double__bus--right--cost--link a{
+        padding: 7px 12px;
+    }
+    .container-fluid.section3 .container .section_wrapper__left .form2 .form2__item{
+        margin: 5px 50px;
+    }
+    .add_label {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .avtoPark__inner-head{
+        display: none!important;
+    }
+}

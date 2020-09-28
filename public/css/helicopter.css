@@ -1,0 +1,228 @@
+/*=====qo'shaman=====*/
+.container-fluid.heli .container .helicopter--item:hover .img{
+position: relative;
+}
+
+.container-fluid.heli .container .helicopter--item:hover .img::before{
+content: "";
+display: inline-block;
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+border-radius: 10px;
+background-image: -webkit-linear-gradient(to top ,#bd0000 10%,rgba(253,63,30,0.5)) ;
+background-image: -moz-linear-gradient(to top ,#bd0000 10%,rgba(253,63,30,0.5));
+background-image: -o-linear-gradient(to top ,#bd0000 10%,rgba(253,63,30,0.5));
+background-image: -ms-linear-gradient(to top ,#bd0000 10%,rgba(253,63,30,0.5));
+background-image: linear-gradient(to top ,#bd0000 10%,rgba(253,63,30,0.5)); 
+}
+  /*============qo'shaman=========*/
+/**
+   codes for helicopter
+    **/
+.container-fluid.heli .container{
+  max-width: 1200px;
+  width: 100%;
+}
+.container-fluid.heli .container .helicopter {
+  border-radius: 10px;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.container-fluid.heli .container .helicopter--item {
+  position: relative;
+}
+.container-fluid.heli .container .helicopter--item .text p{
+    font-family: "M-R";
+    line-height: 25px;
+}
+
+
+.container-fluid.heli .container .helicopter--item:hover .text, .container-fluid.heli .container .helicopter--item:hover .link {
+  color: white;
+}
+
+.container-fluid.heli .container .helicopter--item:hover .text > *, .container-fluid.heli .container .helicopter--item:hover .link > * {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.container-fluid.heli .container .helicopter--item:hover .link a:hover {
+  opacity: 1;
+}
+
+.container-fluid.heli .container .helicopter--item .img {
+  z-index: -1;
+}
+
+.container-fluid.heli .container .helicopter--item .img img {
+  width: 100%;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.container-fluid.heli .container .helicopter--item .text, .container-fluid.heli .container .helicopter--item .link {
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+}
+
+.container-fluid.heli .container .helicopter--item .text h3, .container-fluid.heli .container .helicopter--item .link h3 {
+     text-transform: uppercase;
+    font-size: 32px;
+    font-family: "M-B"!important;
+}
+
+.container-fluid.heli .container .helicopter--item .text a, .container-fluid.heli .container .helicopter--item .link a {
+  position: absolute;
+  color: white;
+  font-size: 22px;
+  border-radius: 30px;
+  padding: 7px 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+  max-width: 220px;
+  font-family: "M-R"!important;
+}
+
+.container-fluid.heli .container .helicopter--item .link a {
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  opacity: 0.7;
+}
+
+.container-fluid.heli .container .helicopter--item .text {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.container-fluid.heli .container .helicopter--item .text > * {
+  margin-bottom: 100px;
+  position: relative;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container-fluid.heli .container .helicopter--item .text > *::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: white;
+  bottom: -50px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.container-fluid.heli .container .helicopter--item .link {
+  bottom: 10%;
+  right: 230px;
+}
+
+/**
+    helicopter the end
+    **/
+/**
+    codes for content
+    **/
+.container-fluid.content {
+  margin-top: 50px;
+}
+
+.container-fluid.content .container .content--item .content-info h3 {
+  color: #333333;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.container-fluid.content .container .content--item .content-info span {
+  color: #79828B;
+  margin-right: 20px;
+}
+
+.container-fluid.content .container .content--item .content-text p {
+  color: #333333;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.container-fluid.content .container .content--item .content-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.container-fluid.content .container .content--item .content-img p {
+  text-align: center;
+  color: #79828B;
+}
+
+.container-fluid.content .container .content--item .content-img img {
+  max-width: 640px;
+  width: 100%;
+}
+
+/**
+    content the end
+    **/
+@media screen and (max-width: 540px) {
+  .helicopter {
+    height: 300px;
+  }
+  .helicopter .img img {
+    height: 300px !important;
+  }
+  .helicopter .text h3, .helicopter .link h3 {
+    font-size: 25px !important;
+  }
+  .helicopter .text p, .helicopter .link p {
+    font-size: 12px !important;
+  }
+  .helicopter .text > * {
+    margin-bottom: 10px !important;
+  }
+  .helicopter .text > *::before {
+    display: none !important;
+  }
+  .helicopter .link {
+    bottom: 12% !important;
+    right: 150px !important;
+  }
+  .helicopter .link a {
+    font-size: 18px !important;
+  }
+  .content-info h3 {
+    font-size: 26px !important;
+    text-align: center;
+  }
+}
+
+.personal_danni--text h4{
+  font-size: 14pt;
+  
+  font-family: "M-R";
+  padding-bottom: 15px;
+}

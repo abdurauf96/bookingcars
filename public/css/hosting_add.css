@@ -1,0 +1,45 @@
+.acordion-active span {
+    transform: rotate(90deg);
+}
+.acordion-info p{
+    line-height: 22px;
+    font-family: "M-R";
+} 
+.offers .info-link p{
+    font-size: 16px;
+    font-weight: normal!important;
+
+}
+.whayMy__inner-right .text p{
+    font-family: "M-R";
+    line-height: 22px;
+    font-size: 14px;
+}
+.phone a{
+    line-height: 25px;
+}
+.booking__inner-logo-head{
+    line-height: 43px;
+}
+.container-fluid.heli .container .helicopter--item .text h3{
+    line-height: 30px;
+}
+@media screen and (max-width: 500px){
+    .container-fluid.heli .container .helicopter--item .text p{
+        display: none!important;
+    }
+}
+@media screen and (min-width: 414px) and (max-width: 500px){
+    .container-fluid.heli .container .helicopter--item .img img{
+        width: 85%;
+        margin-left: 25px;
+    }
+    .avtoPark__inner-head .logo{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .booking__inner-logo-head, .booking__inner-logo-body{
+        line-height: 22px;    
+    }
+}
